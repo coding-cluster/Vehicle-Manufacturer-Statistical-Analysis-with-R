@@ -16,7 +16,7 @@ Everything lives in `notebook.ipynb`, written in R. The columns keep their origi
 
 **`Origen` is categorical, not numeric.** It stores country of origin as codes (1 = National, 2 = Foreign, 3 = Undetermined), so a mean or median of it doesn't mean anything statistically. Those two are still computed in the notebook because the assignment explicitly asks for them, but they're flagged as meaningless in the notebook's own observations. The mode is the only central tendency measure that actually applies to this variable.
 
-**R has no built-in `mode()` function for this.** The base R `mode()` tells you the storage type of an object (numeric, character, and so on), not the statistical mode. So the notebook defines its own `mode_col()` function using `unique()`, `match()`, and `tabulate()`. If that combination looks unfamiliar, `MODE_ALGO.md` walks through why it works, step by step, with a worked example.
+**R has no built-in `mode()` function for this.** The base R `mode()` tells you the storage type of an object (numeric, character, and so on), not the statistical mode. So the notebook defines its own `mode_col()` function using `unique()`, `match()`, and `tabulate()`. If that combination looks unfamiliar, `docs/MODE_ALGO.md` walks through why it works, step by step, with a worked example.
 
 ## Running it
 
