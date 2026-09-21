@@ -21,3 +21,28 @@ Everything lives in `notebook.ipynb`, written in R. The columns keep their origi
 ## Running it
 
 You'll need R with the `dplyr`, `IRdisplay`, and `skimr` packages, plus a Jupyter setup with the R kernel (IRkernel) so `notebook.ipynb` can run. The first cell installs the packages if they're missing.
+
+## Figures
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/variables.png" width="100%"><br>
+      <sub>Variable dictionary</sub>
+    </td>
+    <td align="center">
+      <img src="figures/boxplots.png" width="100%"><br>
+      <sub>Boxplots</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="figures/histograms.png" width="100%"><br>
+      <sub>Histograms</sub>
+    </td>
+    <td align="center">
+      <img src="figures/origen_barplot.png" width="100%"><br>
+      <sub>Origen bar plot</sub>
+    </td>
+  </tr>
+</table>
